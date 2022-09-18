@@ -17,7 +17,7 @@ export default function Home () {
                 <div className="caja-dark" >
                     <h2 id="h2">FATLOSS87</h2>
                 </div>
-                <ul>
+                <ul className="lista">
                     <li>Planificación entrenamientos durante <b>87 días</b>.</li>
                     <li><b>3-6</b> entrenamientos por semana.</li>
                     <li>Visualización y registro entrenamientos.</li>
@@ -33,7 +33,7 @@ export default function Home () {
                 </div>
             </section>
             <p className="comentarios"> --------- como te ayudare ?... --------- </p>
-            <section>
+            <section className="">
                 <div className="text-box flex-column">TEXT</div>
                 <div className="text-box flex-column">TEXT</div>
                 <div className="text-box flex-column">TEXT</div>
@@ -42,7 +42,48 @@ export default function Home () {
                 </div>
             </section>
             <p className="comentarios"> --------- otros servicios --------- </p>
-
+            <section>
+                <div>
+                    <article className="flex-column">
+                        <div className="caja-dark">
+                            <h2 id="h2">ECONÓMICO</h2>
+                        </div>
+                        <ul className="lista">
+                            <li>Planificación mensual.</li>
+                            <li> -3 entrenamientos por semana.</li>
+                            <li>Visualización entrenamientos.</li>
+                            <li>Revisión a los 15 días + actualización planificación.</li>
+                            <li>Contacto por chat-Dudyfit.</li>
+                        </ul>
+                        <div className="caja-grey">
+                            <h3 id="h3"><b>49</b>/mes</h3>
+                        </div>
+                    </article>
+                    <article className="flex-column">
+                        <div className="caja-dark">
+                            <h2 id="h2">BÁSICO</h2>
+                        </div>
+                        <ul className="lista">
+                            <li>Planificación mensual.</li>
+                            <li>Entrenamientos necesarios por semana.</li>
+                            <li>Visualización y registro.</li>
+                            <li>Revisión semanal y actualización planificación.</li>
+                            <li>Contacto por chat-Dudyfit.</li>
+                            <li>Vídeos explicativos.</li>
+                        </ul>
+                        <div className="caja-grey">
+                            <h3 id="h3"><b>95</b>/mes</h3>
+                        </div>
+                    </article>
+                    <article className="flex-column">
+                        <div className="caja-dark">
+                                <h2 id="h2">PREMIUM</h2>
+                        </div>
+                    </article>
+                </div>
+                <div></div>
+                <div></div>
+            </section>
 
         </div>
     )
