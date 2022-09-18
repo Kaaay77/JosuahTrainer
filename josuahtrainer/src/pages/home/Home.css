@@ -1,1 +1,47 @@
+:root {
+    --corp-black: #000000;
+    --corp-dark: #282828;
+    --corp-yellow: #F7CF4A;
+    --corp-grey: #535353;
+}
 
+
+.flex-column{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.cabecera{
+    border: 1px solid red;
+    padding: 1rem;
+    height: 350px;
+}
+
+.caja-dark {
+    background-color: var(--corp-dark);
+    border-radius: 30px;
+}
+.caja-grey {
+    background-color: var(--corp-grey);
+    border-radius: 30px;
+}
+
+h2{
+    font-size: 2rem;
+    color: var(--corp-yellow);
+    margin: 0;
+    padding: 10px 40px;
+}
+h3 {
+    color: #ffff;
+    font-size: 16px;
+    margin: 0;
+    padding: 10px 30px;
+    text-shadow: 2px 2px 2px black;
+    text-align: center;
+}
+h3 >b {
+    font-size: 30px;
+    color: var(--corp-yellow);
+}
