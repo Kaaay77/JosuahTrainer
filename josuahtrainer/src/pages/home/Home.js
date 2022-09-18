@@ -8,7 +8,7 @@ export default function Home () {
     return(
         <div className="home">
             <header>
-                <div className="cabecera">
+                <div className="cabecera flex-column">
                     <p>Aqui va la tipica frase de consigue tu cambio bla bla bla</p>
                     <p>PARA PERSONAS QUE QUIERAN PERDER HASTA 10 KG EN 87 DÍAS, BLABLABLA... :</p>
                 </div>
@@ -56,7 +56,7 @@ export default function Home () {
                             <li>Contacto por chat-Dudyfit.</li>
                         </ul>
                         <div className="caja-grey">
-                            <h3 id="h3"><b>49</b>/mes</h3>
+                            <h3 id="h3"><b>49€</b>/mes</h3>
                         </div>
                     </article>
                     <article className="flex-column">
@@ -66,18 +66,32 @@ export default function Home () {
                         <ul className="lista">
                             <li>Planificación mensual.</li>
                             <li>Entrenamientos necesarios por semana.</li>
-                            <li>Visualización y registro.</li>
+                            <li>Visualización y registro entrenamientos.</li>
                             <li>Revisión semanal y actualización planificación.</li>
                             <li>Contacto por chat-Dudyfit.</li>
                             <li>Vídeos explicativos.</li>
                         </ul>
                         <div className="caja-grey">
-                            <h3 id="h3"><b>95</b>/mes</h3>
+                            <h3 id="h3"><b>95€</b>/mes</h3>
                         </div>
                     </article>
                     <article className="flex-column">
                         <div className="caja-dark">
                                 <h2 id="h2">PREMIUM</h2>
+                        </div>
+                        <ul className="lista">
+                        <li>Planificación mensual.</li>
+                        <li>Entrenamientos necesarios por semana.</li>
+                        <li>Visualización y registro entrenamientos.</li>
+                        <li>Revisión y seguimiento diario.</li>
+                        <li>Contacto por chat-Dudyfit.</li>
+                        <li>Vídeos explicativos.</li>
+                        <li>1 Videollamada semanal.</li>
+                        <li>1 Sesión en directo semanal.</li>
+                        <li>Recomendaciones nutricionales básicas.</li>
+                        </ul>
+                        <div className="caja-grey">
+                            <h3 id="h3"><b>169€</b>/mes</h3>
                         </div>
                     </article>
                 </div>
