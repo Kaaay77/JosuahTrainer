@@ -27,13 +27,13 @@
     border-radius: 30px;
 }
 
-h2{
+#h2{
     font-size: 2rem;
     color: var(--corp-yellow);
     margin: 0;
     padding: 10px 40px;
 }
-h3 {
+#h3 {
     color: #ffff;
     font-size: 16px;
     margin: 0;
@@ -41,7 +41,29 @@ h3 {
     text-shadow: 2px 2px 2px black;
     text-align: center;
 }
-h3 >b {
+#h3 > b {
     font-size: 30px;
     color: var(--corp-yellow);
+}
+
+.comentarios{
+    color: red;
+    text-align: center;
+}
+
+.text-box{
+    border: 1px solid red;
+    height: 200px;
+    border-radius: 30px;
+    margin: 1rem 3rem;
+}
+
+.yellow-box{
+    background-color: var(--corp-yellow);
+    border-radius: 30px;
+    margin: 0 1rem;
+}
+.yellow-box > h2 {
+    padding: 10px 30px;
+    text-align: center;
 }

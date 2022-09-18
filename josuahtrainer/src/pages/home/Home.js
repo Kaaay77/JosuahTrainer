@@ -13,7 +13,7 @@ export default function Home () {
             </header>
             <section className="flex-column" >
                 <div className="caja-dark" >
-                    <h2>FATLOSS87</h2>
+                    <h2 id="h2">FATLOSS87</h2>
                 </div>
                 <ul>
                     <li>Planificación entrenamientos durante <b>87 días</b>.</li>
@@ -27,9 +27,21 @@ export default function Home () {
                     <li>Recomendaciones nutricionales básicas.</li>
                 </ul>
                 <div className="caja-grey">
-                    <h3><b>279€</b>/pago <br/> único</h3>
+                    <h3 id="h3"><b>279€</b>/pago <br/> único</h3>
                 </div>
             </section>
+            <p className="comentarios"> --------- como te ayudare ?... --------- </p>
+            <section>
+                <div className="text-box flex-column">TEXT</div>
+                <div className="text-box flex-column">TEXT</div>
+                <div className="text-box flex-column">TEXT</div>
+                <div className="yellow-box">
+                <h2 >CONTACTA CONMIGO</h2>
+                </div>
+            </section>
+            <p className="comentarios"> --------- otros servicios --------- </p>
+
+
         </div>
     )
 }
