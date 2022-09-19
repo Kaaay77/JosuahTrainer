@@ -67,9 +67,40 @@
     padding: 10px 30px;
     text-align: center;
 }
+
+.sombreado {
+    border: 1px solid #000000;
+    margin: 1rem;
+    padding: 2rem 0 ;
+    border-radius: 30px;
+    box-shadow: 2px 2px 7px #535353;
+}
+
 .lista{
     margin: 1rem;
 }
 article{
     margin: 5rem 0;
+}
+.flex-wrap {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.black-Section {
+    background-color: #000000;
+}
+.black-Section b {
+    color: #ffff;
+    text-align: center;
+}
+.icon-cell {
+    width: 15vh;
+    margin: 1rem;;
+}
+.icon {
+    font-size: 70px;
+    color: #ffff;
 }

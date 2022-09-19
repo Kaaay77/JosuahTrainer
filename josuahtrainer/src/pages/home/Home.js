@@ -1,6 +1,8 @@
 import './Home.css'
-
-
+import {IoIosCalendar } from 'react-icons/io';
+import { ImFilm } from "react-icons/im";
+import { AiOutlineBarChart } from "react-icons/ai";
+import { ImMobile } from "react-icons/im";
 
 export default function Home () {
 
@@ -59,7 +61,7 @@ export default function Home () {
                             <h3 id="h3"><b>49€</b>/mes</h3>
                         </div>
                     </article>
-                    <article className="flex-column">
+                    <article className="flex-column sombreado">
                         <div className="caja-dark">
                             <h2 id="h2">BÁSICO</h2>
                         </div>
@@ -95,8 +97,27 @@ export default function Home () {
                         </div>
                     </article>
                 </div>
-                <div></div>
-                <div></div>
+                <div className="black-Section flex-wrap">
+                    <div className='flex-column icon-cell'>
+                    <IoIosCalendar className='icon ' />
+                    <b>Calendario de entrenamiento</b>
+                    </div>
+                    <div className='flex-column icon-cell'>
+                    <ImFilm className='icon'/>
+                    <b>Vídeo-Rutinas</b>
+                    </div>
+                    <div className='flex-column icon-cell'>
+                    <AiOutlineBarChart className='icon'/>
+                    <b>Para todos los niveles</b>
+                    </div>
+                    <div className='flex-column icon-cell'>
+                    <ImMobile className='icon'/>
+                    <b>Siempre en tu bolsillo</b>
+                    </div>
+                </div>
+                <div className="yellow-box">
+                <h2>Necesitas más información?</h2>
+                </div>
             </section>
 
         </div>
