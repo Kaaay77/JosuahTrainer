@@ -12,11 +12,12 @@ export default function Navbar () {
        return setFlag(!flag)
     }
 
-console.log(flag)
+//console.log(flag)
 
     return (
         <div className='navbar'>
            <p>Josuah T. Entr. Online</p>
+           <div className='flag-nav'>
            {flag === true ?
            (
            <Link to="sobremi" onClick={change} >Sobre mi</Link>
@@ -25,6 +26,8 @@ console.log(flag)
             <Link to="/" onClick={change} >Home</Link>
 
            )}
+           </div>
+           
         </div>
     )
 }

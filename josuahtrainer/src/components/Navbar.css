@@ -7,3 +7,7 @@
     justify-content:space-around;
     flex-direction: row;
 }
+.flag-nav{
+    width: 80px;
+    text-align: center;
+}
