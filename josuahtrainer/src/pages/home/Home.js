@@ -15,7 +15,7 @@ export default function Home () {
                     <p>PARA PERSONAS QUE QUIERAN PERDER HASTA 10 KG EN 87 DÍAS, BLABLABLA... :</p>
                 </div>
             </header>
-            <section className="flex-column" >
+            <section className="flex-column sombreado" >
                 <div className="caja-dark" >
                     <h2 id="h2">FATLOSS87</h2>
                 </div>
@@ -46,7 +46,7 @@ export default function Home () {
             <p className="comentarios"> --------- otros servicios --------- </p>
             <section>
                 <div>
-                    <article className="flex-column">
+                    <article className="flex-column sombreado">
                         <div className="caja-dark">
                             <h2 id="h2">ECONÓMICO</h2>
                         </div>
@@ -77,7 +77,7 @@ export default function Home () {
                             <h3 id="h3"><b>95€</b>/mes</h3>
                         </div>
                     </article>
-                    <article className="flex-column">
+                    <article className="flex-column sombreado">
                         <div className="caja-dark">
                                 <h2 id="h2">PREMIUM</h2>
                         </div>
